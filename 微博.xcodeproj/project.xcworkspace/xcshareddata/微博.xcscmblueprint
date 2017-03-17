@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C1DFB0F8A9F7CF71203BB126B9E86830CAC77DC2+++7B03680",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5B5E891E71FD76AF029FEA9C5996FDEF18C6E3F1+++C82472B" : 9223372036854775807,
+    "C1DFB0F8A9F7CF71203BB126B9E86830CAC77DC2+++7B03680" : 9223372036854775807,
+    "5B5E891E71FD76AF029FEA9C5996FDEF18C6E3F1+++0DD0E55" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8BA9704D-04F9-48A9-92DE-A38160A60CD9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5B5E891E71FD76AF029FEA9C5996FDEF18C6E3F1+++C82472B" : "",
+    "C1DFB0F8A9F7CF71203BB126B9E86830CAC77DC2+++7B03680" : "weibo\/",
+    "5B5E891E71FD76AF029FEA9C5996FDEF18C6E3F1+++0DD0E55" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "微博",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "微博.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jiangbodai\/-.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5B5E891E71FD76AF029FEA9C5996FDEF18C6E3F1+++0DD0E55"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jiangbodai\/weibo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5B5E891E71FD76AF029FEA9C5996FDEF18C6E3F1+++C82472B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jiangbodai\/weibo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C1DFB0F8A9F7CF71203BB126B9E86830CAC77DC2+++7B03680"
+    }
+  ]
+}
