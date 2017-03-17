@@ -34,6 +34,13 @@
 		72969DE01E7B81E500A077BE /* shulin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 72969DDF1E7B81E500A077BE /* shulin.jpg */; };
 		72969DE21E7B81EC00A077BE /* meinv.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 72969DE11E7B81EC00A077BE /* meinv.jpg */; };
 		72969DE41E7B81F400A077BE /* xiaohai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 72969DE31E7B81F400A077BE /* xiaohai.jpg */; };
+		72969DF21E7BCA4200A077BE /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 72969DE71E7BCA4200A077BE /* FMDatabase.m */; };
+		72969DF31E7BCA4200A077BE /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 72969DE91E7BCA4200A077BE /* FMDatabaseAdditions.m */; };
+		72969DF41E7BCA4200A077BE /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 72969DEB1E7BCA4200A077BE /* FMDatabasePool.m */; };
+		72969DF51E7BCA4200A077BE /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 72969DED1E7BCA4200A077BE /* FMDatabaseQueue.m */; };
+		72969DF61E7BCA4200A077BE /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 72969DF01E7BCA4200A077BE /* FMResultSet.m */; };
+		72969DF91E7BCA9500A077BE /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 72969DF81E7BCA9500A077BE /* libsqlite3.tbd */; };
+		72969DFC1E7BCB0900A077BE /* WBDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72969DFB1E7BCB0900A077BE /* WBDatabase.swift */; };
 		72C041C31E5688DA001A11FF /* jcore-ios-1.1.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72C041C01E5688DA001A11FF /* jcore-ios-1.1.1.a */; };
 		72C041C41E5688DA001A11FF /* jpush-ios-3.0.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72C041C11E5688DA001A11FF /* jpush-ios-3.0.2.a */; };
 		72C0420D1E568BB4001A11FF /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C041E11E568BB4001A11FF /* MJRefreshAutoFooter.m */; };
@@ -92,6 +99,19 @@
 		72969DDF1E7B81E500A077BE /* shulin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shulin.jpg; sourceTree = "<group>"; };
 		72969DE11E7B81EC00A077BE /* meinv.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meinv.jpg; sourceTree = "<group>"; };
 		72969DE31E7B81F400A077BE /* xiaohai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xiaohai.jpg; sourceTree = "<group>"; };
+		72969DE61E7BCA4200A077BE /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		72969DE71E7BCA4200A077BE /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		72969DE81E7BCA4200A077BE /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		72969DE91E7BCA4200A077BE /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		72969DEA1E7BCA4200A077BE /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		72969DEB1E7BCA4200A077BE /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		72969DEC1E7BCA4200A077BE /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		72969DED1E7BCA4200A077BE /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		72969DEE1E7BCA4200A077BE /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		72969DEF1E7BCA4200A077BE /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		72969DF01E7BCA4200A077BE /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		72969DF81E7BCA9500A077BE /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		72969DFB1E7BCB0900A077BE /* WBDatabase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBDatabase.swift; sourceTree = "<group>"; };
 		72C041C01E5688DA001A11FF /* jcore-ios-1.1.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jcore-ios-1.1.1.a"; sourceTree = "<group>"; };
 		72C041C11E5688DA001A11FF /* jpush-ios-3.0.2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-3.0.2.a"; sourceTree = "<group>"; };
 		72C041C21E5688DA001A11FF /* JPUSHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
@@ -143,6 +163,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72969DF91E7BCA9500A077BE /* libsqlite3.tbd in Frameworks */,
 				72C041C41E5688DA001A11FF /* jpush-ios-3.0.2.a in Frameworks */,
 				7233865E1E54471500CE290C /* libresolv.tbd in Frameworks */,
 				72C041C31E5688DA001A11FF /* jcore-ios-1.1.1.a in Frameworks */,
@@ -172,6 +193,7 @@
 		723386401E54403D00CE290C /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				72969DE51E7BCA4200A077BE /* fmdb */,
 				72C041DE1E568BB4001A11FF /* MJRefresh */,
 				72C041BF1E5688DA001A11FF /* JPUSH */,
 			);
@@ -181,6 +203,7 @@
 		723386481E54465600CE290C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				72969DF81E7BCA9500A077BE /* libsqlite3.tbd */,
 				7233865D1E54471500CE290C /* libresolv.tbd */,
 				7233865B1E5446EE00CE290C /* UserNotifications.framework */,
 				723386591E5446DB00CE290C /* AdSupport.framework */,
@@ -235,6 +258,7 @@
 		7251AC581E4B1465008F1411 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				72969DFA1E7BCAF100A077BE /* Database */,
 				72969DDC1E7A614900A077BE /* CommonView */,
 				7251AC591E4B1465008F1411 /* Main */,
 				723CBD591E4D946600155553 /* Home */,
@@ -315,6 +339,32 @@
 				72969DDD1E7A616100A077BE /* WBRefreshControl.swift */,
 			);
 			path = CommonView;
+			sourceTree = "<group>";
+		};
+		72969DE51E7BCA4200A077BE /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				72969DE61E7BCA4200A077BE /* FMDatabase.h */,
+				72969DE71E7BCA4200A077BE /* FMDatabase.m */,
+				72969DE81E7BCA4200A077BE /* FMDatabaseAdditions.h */,
+				72969DE91E7BCA4200A077BE /* FMDatabaseAdditions.m */,
+				72969DEA1E7BCA4200A077BE /* FMDatabasePool.h */,
+				72969DEB1E7BCA4200A077BE /* FMDatabasePool.m */,
+				72969DEC1E7BCA4200A077BE /* FMDatabaseQueue.h */,
+				72969DED1E7BCA4200A077BE /* FMDatabaseQueue.m */,
+				72969DEE1E7BCA4200A077BE /* FMDB.h */,
+				72969DEF1E7BCA4200A077BE /* FMResultSet.h */,
+				72969DF01E7BCA4200A077BE /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		72969DFA1E7BCAF100A077BE /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				72969DFB1E7BCB0900A077BE /* WBDatabase.swift */,
+			);
+			path = Database;
 			sourceTree = "<group>";
 		};
 		72B83B731E4D92B0000E2D75 /* Resource */ = {
@@ -531,6 +581,7 @@
 				723CBD5B1E4D949C00155553 /* WBHomeController.swift in Sources */,
 				72C0421F1E568BB4001A11FF /* UIScrollView+MJRefresh.m in Sources */,
 				72C043691E77D95C001A11FF /* WBHomeCell.swift in Sources */,
+				72969DF61E7BCA4200A077BE /* FMResultSet.m in Sources */,
 				7251AC5E1E4B1671008F1411 /* WBTabBarController.swift in Sources */,
 				72C042111E568BB4001A11FF /* MJRefreshHeader.m in Sources */,
 				72C0420E1E568BB4001A11FF /* MJRefreshBackFooter.m in Sources */,
@@ -538,18 +589,23 @@
 				725A47C81E4AFFE500C7FE89 /* AppDelegate.swift in Sources */,
 				7251AC601E4B1685008F1411 /* WBNavigationController.swift in Sources */,
 				72C042121E568BB4001A11FF /* MJRefreshAutoGifFooter.m in Sources */,
+				72969DF41E7BCA4200A077BE /* FMDatabasePool.m in Sources */,
 				7251AC631E4B194E008F1411 /* Bundle+Extansion.swift in Sources */,
 				72C0421D1E568BB4001A11FF /* NSBundle+MJRefresh.m in Sources */,
 				72C0421E1E568BB4001A11FF /* UIScrollView+MJExtension.m in Sources */,
 				7251AC671E4B1FF8008F1411 /* WBProfileController.swift in Sources */,
+				72969DF21E7BCA4200A077BE /* FMDatabase.m in Sources */,
 				72C042101E568BB4001A11FF /* MJRefreshFooter.m in Sources */,
 				72C0420F1E568BB4001A11FF /* MJRefreshComponent.m in Sources */,
+				72969DF31E7BCA4200A077BE /* FMDatabaseAdditions.m in Sources */,
 				72C042151E568BB4001A11FF /* MJRefreshBackGifFooter.m in Sources */,
 				723CBD5D1E4D94AA00155553 /* WBMessageController.swift in Sources */,
 				72C0421A1E568BB4001A11FF /* MJRefreshStateHeader.m in Sources */,
 				72C042171E568BB4001A11FF /* MJRefreshBackStateFooter.m in Sources */,
 				72C042191E568BB4001A11FF /* MJRefreshNormalHeader.m in Sources */,
 				72C042131E568BB4001A11FF /* MJRefreshAutoNormalFooter.m in Sources */,
+				72969DF51E7BCA4200A077BE /* FMDatabaseQueue.m in Sources */,
+				72969DFC1E7BCB0900A077BE /* WBDatabase.swift in Sources */,
 				7251AC651E4B1FDA008F1411 /* WBBaseViewController.swift in Sources */,
 				7233863F1E542F7600CE290C /* WBDiscoverController.swift in Sources */,
 			);
