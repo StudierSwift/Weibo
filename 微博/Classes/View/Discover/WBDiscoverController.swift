@@ -12,7 +12,11 @@ class WBDiscoverController: WBBaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        let db2 = WBDatabase.sharedDatabase
+        let db3 = WBDatabase.sharedDatabase
+        
+        print(db2)
+        print(db3)
         // Do any additional setup after loading the view.
     }
 
