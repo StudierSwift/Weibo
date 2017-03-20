@@ -41,6 +41,7 @@
 		72969DF61E7BCA4200A077BE /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 72969DF01E7BCA4200A077BE /* FMResultSet.m */; };
 		72969DF91E7BCA9500A077BE /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 72969DF81E7BCA9500A077BE /* libsqlite3.tbd */; };
 		72969DFC1E7BCB0900A077BE /* WBDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72969DFB1E7BCB0900A077BE /* WBDatabase.swift */; };
+		729EEE0A1E7FC1C50032E690 /* WBHomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729EEE091E7FC1C50032E690 /* WBHomeModel.swift */; };
 		72C041C31E5688DA001A11FF /* jcore-ios-1.1.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72C041C01E5688DA001A11FF /* jcore-ios-1.1.1.a */; };
 		72C041C41E5688DA001A11FF /* jpush-ios-3.0.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72C041C11E5688DA001A11FF /* jpush-ios-3.0.2.a */; };
 		72C0420D1E568BB4001A11FF /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C041E11E568BB4001A11FF /* MJRefreshAutoFooter.m */; };
@@ -112,6 +113,7 @@
 		72969DF01E7BCA4200A077BE /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
 		72969DF81E7BCA9500A077BE /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		72969DFB1E7BCB0900A077BE /* WBDatabase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBDatabase.swift; sourceTree = "<group>"; };
+		729EEE091E7FC1C50032E690 /* WBHomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WBHomeModel.swift; path = "微博/Classes/View/Database/WBHomeModel.swift"; sourceTree = SOURCE_ROOT; };
 		72C041C01E5688DA001A11FF /* jcore-ios-1.1.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jcore-ios-1.1.1.a"; sourceTree = "<group>"; };
 		72C041C11E5688DA001A11FF /* jpush-ios-3.0.2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-3.0.2.a"; sourceTree = "<group>"; };
 		72C041C21E5688DA001A11FF /* JPUSHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
@@ -243,6 +245,7 @@
 		7251AC561E4B1465008F1411 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				729EEE091E7FC1C50032E690 /* WBHomeModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -572,6 +575,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				729EEE0A1E7FC1C50032E690 /* WBHomeModel.swift in Sources */,
 				72C0420D1E568BB4001A11FF /* MJRefreshAutoFooter.m in Sources */,
 				72C042141E568BB4001A11FF /* MJRefreshAutoStateFooter.m in Sources */,
 				72C042161E568BB4001A11FF /* MJRefreshBackNormalFooter.m in Sources */,
