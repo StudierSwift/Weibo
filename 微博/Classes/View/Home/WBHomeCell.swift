@@ -13,13 +13,13 @@ protocol WBHomeCellDelegate {
 }
 
 class WBHomeCell: UITableViewCell {
-    
+    ///只传一个字符串
     var dataStr: String? {
         didSet{
             label.text = dataStr
         }
     }
-    
+    ///传一个字典
     var dict: [String: String]? {
         didSet{
             label.text = dict?["title"]
@@ -28,6 +28,16 @@ class WBHomeCell: UITableViewCell {
             imageview.image = UIImage(named: imageTitle)
         }
     }
+    ///传一个模型
+    var model: WBHomeModel? {
+        didSet{
+            label.text = model?.title ?? ""
+            subLabel.text = model?.subTitle ?? ""
+            imageview.image = UIImage(named: (model?.imageTitle)!)
+        }
+    }
+    
+    
     
     typealias editedBlock = ([String: String]) ->()
     

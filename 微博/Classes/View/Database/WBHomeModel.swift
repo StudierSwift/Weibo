@@ -19,5 +19,9 @@ class WBHomeModel: NSObject {
         setValuesForKeys(dict)
     }
     
+    override init() {
+        super.init()
+    }
+    
     override func setValue(_ value: Any?, forUndefinedKey key: String) {}
 }

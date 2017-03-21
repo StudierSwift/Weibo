@@ -12,6 +12,10 @@ class WBDiscoverController: WBBaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let model: WBHomeModel = WBHomeModel(dict: ["title":"测试标题","subTitle":"测试子标题","imageTitle":"图片标题"])
+        WBDatabase.saveData(model: model)
+        print(WBDatabase.searchData())
         let db2 = WBDatabase.sharedDatabase
         let db3 = WBDatabase.sharedDatabase
         

@@ -12,7 +12,7 @@ private let cellID = "HomeCellID"
 
 class WBHomeController: WBBaseViewController {
 
-    lazy var dataList = [[String:String]]()
+    lazy var dataList = [WBHomeModel]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +21,13 @@ class WBHomeController: WBBaseViewController {
     }
 
     override func loadData() {
+        
+        ///先从数据库获取数据
+        let sqlData: [WBHomeModel] = WBDatabase.searchData()
+        dataList.append(contentsOf: sqlData)
+        self.tableView?.reloadData()
+        
+        
         print("开始加载数据")
         DispatchQueue.main.asyncAfter(deadline: DispatchTime.now()+3) {
             for i in 0..<15 {
@@ -34,7 +41,8 @@ class WBHomeController: WBBaseViewController {
                 }
                 
                 let dict = ["title":"标题：\(i.description)","subTitle":"标题说明（子标题）：\(i.description+"1")","imageTitle":imageTitle]
-                self.dataList.insert(dict, at: 0)
+                let model: WBHomeModel = WBHomeModel(dict: dict)
+                self.dataList.insert(model, at: 0)
             }
             print("加载数据完成")
             self.refreshController?.endRefreshing()
@@ -57,7 +65,8 @@ class WBHomeController: WBBaseViewController {
                 
                 let dict = ["title":"下拉标题:\(i.description)","subTitle":"下拉标题说明(子标题):\(i.description)","imageTitle":imageTitle]
                 self.isPullUp = false
-                self.dataList.append(dict)
+                let model: WBHomeModel = WBHomeModel(dict: dict)
+                self.dataList.append(model)
                 self.tableView?.reloadData()
                 
             }
@@ -83,10 +92,10 @@ extension WBHomeController {
         let cell = WBHomeCell(style: .default, reuseIdentifier: WBHomeCell.cellID())
 //        cell.dataStr = "\(indexPath.row.description)"
 //        cell.cellForStr(cellStr: self.dataList[indexPath.row])
-        cell.dict = self.dataList[indexPath.row]
+//        cell.dict = self.dataList[indexPath.row]
 //        cell.cellForDict(dict: self.dataList[indexPath.row])
 //        cell.delegate = self
-        
+        cell.model = self.dataList[indexPath.row]
         return cell
     }
     
